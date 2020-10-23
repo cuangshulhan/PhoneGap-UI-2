@@ -1,0 +1,54 @@
+    <!DOCTYPE html>  
+    <html>  
+    <head>  
+    <meta charset="utf-8">  
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">  
+        <title>Dog Years Calculator</title>  
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+            <style>  
+                #footer  
+                {  
+                    position: absolute;  
+                    bottom: 0;  
+                    width: 100%;  
+                }  
+    </style>    
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>  
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  
+    </head>  
+    <body>  
+            <div data-role="page" id="page1">  
+                <div data-role="header">  
+                    <h1>PhoneGap User Interface</h1>  
+                </div> <!-- header -->  
+                  
+                <div data-role="main" class="ui-content">
+                    <fieldset data-role="controlgroup" data-mini="true">  
+                        <legend>Fruits</legend>  
+                        <input type="checkbox" name="Mango" id="Mango"/>  
+                        <label for ="Mango">Mango</label>
+
+                        <input type="checkbox" name="Banana " id="Banana"/>  
+                        <label for ="Banana">Banana</label> 
+
+                        <input type="checkbox" name="Graps" id="Graps"/>  
+                        <label for ="Graps">Graps</label>   
+
+                        <input type="checkbox" name="Papaya" id="Papaya"/>  
+                        <label for ="Papaya">Papaya</label> 
+                        
+                        <label for="myflip">Flip switch</label>  
+                        <input type="checkbox"id="myflip" data-role="flipswitch"/>      
+                    </fieldset>    
+                    <button onclick="location.href='index3.html#page2'">Click here</button>  
+                </div> <!-- main -->  
+                  
+                <div data-role="footer" id="footer">  
+                    <button onclick="location.href='index2.html'" style=" margin-left: 5px; width: 100px;">Previous</button> 
+                    <button onclick="location.href='index4.html'" style="float: right; margin-right: 5px;width: 100px;">Next</button>  
+                </div> <!-- footer -->  
+            </div> <!-- page -->  
+
+            <script type="text/javascript" src="cordova.js"></script>  
+        </body>  
+    </html>  

@@ -1,0 +1,52 @@
+    <!DOCTYPE html>  
+    <html>  
+    <head>  
+    <meta charset="utf-8">  
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">  
+        <title>Dog Years Calculator</title>  
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+            <style>  
+                #footer  
+                {  
+                    position: absolute;  
+                    bottom: 0;  
+                    width: 100%;  
+                }  
+    </style>    
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>  
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  
+    </head>  
+    <body>  
+            <div data-role="page" id="page1">  
+                <div data-role="header">  
+                    <h1>PhoneGap User Interface</h1>  
+                </div> <!-- header -->  
+                  
+                <div data-role="main" class="ui-content"> 
+                    <div data-role="collapsible" data-collapsed="false">  
+                        <h3>Collapsible one</h3>  
+                        <p> It is collapsible data area. Put your content here.</p>  
+                    </div> <!--collapsible set -->  
+
+                    <div data-role="collapsible">  
+                        <h3>Collapsible two</h3>  
+                        <p> It is default collapsible data area. Put your content here.</p>  
+                        </div> <!--collapsible set -->  
+                                  
+                    <div data-role="collapsible" data-collapsed="true">  
+                        <h3>Collapsible three</h3>  
+                        <p> It is collapsible data area. Put your content here.</p>  
+                    </div> <!--collapsible set -->  
+
+                    <button onclick="location.href='index2.html#page2'">Click here</button>  
+                </div> <!-- main -->  
+                  
+                <div data-role="footer" id="footer">  
+                    <button onclick="location.href='index.html'" style=" margin-left: 5px; width: 100px;">Previous</button> 
+                    <button onclick="location.href='index3.html'" style="float: right; margin-right: 5px;width: 100px;">Next</button>  
+                </div> <!-- footer -->  
+            </div> <!-- page -->  
+
+            <script type="text/javascript" src="cordova.js"></script>  
+        </body>  
+    </html>  
